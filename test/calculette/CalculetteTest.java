@@ -42,5 +42,35 @@ public class CalculetteTest {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of rest method, of class Calculette.
+     */
+    @Test
+    public void testRest() {
+        System.out.println("rest");
+        int n1 = 0;
+        int n2 = 0;
+        Calculette instance = new Calculette();
+        int expResult = 0;
+        int result = instance.rest(n1, n2);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+    }
+
+    /**
+     * Test of div method, of class Calculette.
+     */
+    @Test
+    public void testDiv() {
+        System.out.println("div");
+        int n1 = 0;
+        int n2 = 0;
+        Calculette instance = new Calculette();
+        double expResult = 0.0;
+        double result = instance.div(n1, n2);
+        assertEquals(expResult, result, 0.0);
+        // TODO review the generated test code and remove the default call to fail.
+    }
     
 }
