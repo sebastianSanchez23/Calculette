@@ -64,8 +64,8 @@ public class CalculetteTest {
     @Test
     public void testDiv() {
         System.out.println("div");
-        int n1 = 0;
-        int n2 = 0;
+        int n1 = 8;
+        int n2 = 2;
         Calculette instance = new Calculette();
         double expResult = 0.0;
         double result = instance.div(n1, n2);
