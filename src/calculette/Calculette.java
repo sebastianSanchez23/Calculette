@@ -12,7 +12,10 @@ package calculette;
 public class Calculette {
 
     /**
-     * @param args the command line arguments
+     *
+     * @param n1
+     * @param n2
+     * @return
      */
     public int sum(int n1, int n2) {
         return n1 + n2;
