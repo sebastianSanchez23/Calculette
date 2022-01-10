@@ -82,8 +82,8 @@ public class CalculetteTest {
     @Test
     public void testMulti() {
         System.out.println("multi");
-        int n1 = 0;
-        int n2 = 0;
+        int n1 = 7;
+        int n2 = 5;
         Calculette instance = new Calculette();
         int expResult = 0;
         int result = instance.multi(n1, n2);
