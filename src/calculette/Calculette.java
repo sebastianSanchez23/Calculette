@@ -41,4 +41,13 @@ public class Calculette {
         return n2 == 0 ? 0 : n1 / n2;
     }
 
+    /**
+     *
+     * @param n1
+     * @param n2
+     * @return
+     */
+    public int multi(int n1, int n2) {
+        return n1 * n2;
+    }
 }
